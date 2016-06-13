@@ -1,0 +1,5 @@
+python-xstatic-angular-fileupload (12.0.4.0+dfsg1-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #XXXXXX)
+
+ -- Ivan Udovichenko <iudovichenko@mirantis.com>  Fri, 10 Jun 2016 16:41:46 +0300

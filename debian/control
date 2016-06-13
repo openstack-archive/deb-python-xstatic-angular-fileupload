@@ -1,0 +1,47 @@
+Source: python-xstatic-angular-fileupload
+Section: python
+Priority: optional
+Maintainer: PKG OpenStack <openstack-devel@lists.alioth.debian.org>
+Uploaders: Ivan Udovichenko <iudovichenko@mirantis.com>
+Build-Depends: debhelper (>= 9),
+               dh-python,
+               python-setuptools,
+               python-all,
+               python3-setuptools,
+               python3-all
+Build-Conflicts: python-xstatic,
+                 python3-xstatic
+Standards-Version: 3.9.6
+Vcs-Browser: https://anonscm.debian.org/cgit/openstack/python-xstatic-angular-fileupload.git/
+Vcs-Git: https://anonscm.debian.org/git/openstack/python-xstatic-angular-fileupload.git
+Homepage: https://github.com/openstack/xstatic-angular-fileupload
+
+Package: python-xstatic-angular-fileupload
+Architecture: all
+Depends: libjs-angular-file-upload (>= 12.0.4),
+         python-xstatic,
+         ${misc:Depends},
+         ${python:Depends}
+Description: Angular-FileUpload  (XStatic packaging standard) - Python 2.7
+ XStatic is a Python web development tool for handling required static data
+ files from external projects, such as CSS, images, and JavaScript. It provides
+ a lightweight infrastructure to manage them via Python modules that your app
+ can depend on in a portable, virtualenv-friendly way instead of using embedded
+ copies.
+ .
+ This package contains the Python 2.7 module support for Angular-FileUpload.
+
+Package: python3-xstatic-angular-fileupload
+Architecture: all
+Depends: libjs-angular-file-upload (>= 12.0.4),
+         python3-xstatic,
+         ${misc:Depends},
+         ${python3:Depends}
+Description: Angular-FileUpload  (XStatic packaging standard) - Python 3.x
+ XStatic is a Python web development tool for handling required static data
+ files from external projects, such as CSS, images, and JavaScript. It provides
+ a lightweight infrastructure to manage them via Python modules that your app
+ can depend on in a portable, virtualenv-friendly way instead of using embedded
+ copies.
+ .
+ This package contains the Python 3.x module support for Angular-FileUpload.

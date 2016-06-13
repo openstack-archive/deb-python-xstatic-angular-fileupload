@@ -1,0 +1,5 @@
+version=3
+opts="uversionmangle=s/(rc|a|b|c)/~$1/,\
+dversionmangle=s/\+dfsg\d*$//" \
+https://pypi.debian.net/XStatic-Angular-FileUpload/XStatic-Angular-FileUpload-(.+)\.(?:zip|tgz|tbz|txz|(?:tar\.(?:gz|bz2|xz)))
+
