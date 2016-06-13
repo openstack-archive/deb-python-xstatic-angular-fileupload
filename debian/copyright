@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: ng-file-upload
-Source: git://github.com/danialfarid/ng-file-upload.git
+Source: https://github.com/openstack/xstatic-angular-fileupload.git
 
 Files: debian/*
 Copyright: (c) 2016, Thomas Goirand <zigo@debian.org>
