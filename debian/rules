@@ -6,7 +6,7 @@ PYTHON3S:=$(shell py3versions -vr)
 UPSTREAM_GIT := https://github.com/openstack/xstatic-angular-fileupload.git
 -include /usr/share/openstack-pkg-tools/pkgos.make
 
-STATIC_FILES := FileAPI.js FileAPI.min.js ng-file-upload.js ng-file-upload-all.min.js ng-file-upload.js ng-file-upload.min.js ng-file-upload-shim.js ng-file-upload-shim.min.js
+STATIC_FILES := FileAPI.js FileAPI.min.js ng-file-upload-all.js ng-file-upload-all.min.js ng-file-upload.js ng-file-upload.min.js ng-file-upload-shim.js ng-file-upload-shim.min.js
 
 define xstatic_make_link_to_file
 	for i in $(CURDIR)/debian/python*-xstatic*/usr/lib/python*/dist-packages/xstatic/pkg/*/data/$1 ; do \
