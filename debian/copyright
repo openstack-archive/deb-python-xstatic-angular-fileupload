@@ -4,7 +4,7 @@ Source: https://github.com/openstack/xstatic-angular-fileupload.git
 
 Files: debian/*
 Copyright: (c) 2016, Thomas Goirand <zigo@debian.org>
-           (c) 2016, Ivan Udovichenko <iudovichenko@mirantis.com>           
+           (c) 2016, Ivan Udovichenko <iudovichenko@mirantis.com>
 License: MIT
 
 Files: xstatic/pkg/angular_fileupload/data/*
